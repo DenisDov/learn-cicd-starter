@@ -15,7 +15,7 @@ func TestGetAPIKey(t *testing.T) {
 		expectErr string
 	}{
 		{
-			expectErr: "no authorization header",
+			expectErr: "break ci test",
 		},
 		{
 			key:       "Authorization",
